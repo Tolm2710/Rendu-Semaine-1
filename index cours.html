@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Elden Ring</title>
+
+    <style>
+
+        /* PAGE */
+
+        body {
+            margin: 0;
+            background-color: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+
+        /* MENU */
+
+        header {
+            background-color: #050505;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #d4af37;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        nav a:hover {
+            color: #d4af37;
+        }
+
+
+        /* ACCUEIL */
+
+        .accueil {
+            height: 500px;
+
+            background-image: url("https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80");
+
+            background-size: cover;
+            background-position: center;
+
+            text-align: center;
+
+            padding-top: 150px;
+        }
+
+        .accueil h2 {
+            font-size: 60px;
+            color: #d4af37;
+        }
+
+        .accueil p {
+            font-size: 20px;
+        }
+
+        .bouton {
+            display: inline-block;
+            background-color: #d4af37;
+            color: black;
+
+            padding: 15px 25px;
+
+            text-decoration: none;
+
+            margin-top: 20px;
+        }
+
+        .bouton:hover {
+            background-color: white;
+        }
+
+
+        /* SECTIONS */
+
+        section {
+            padding: 60px;
+        }
+
+        section h2 {
+            color: #d4af37;
+            font-size: 35px;
+        }
+
+
+        /* PRESENTATION */
+
+        .presentation {
+            background-color: #181818;
+        }
+
+        .presentation img {
+            width: 500px;
+            max-width: 100%;
+        }
+
+
+        /* GAMEPLAY */
+
+        .gameplay {
+            background-color: #111;
+        }
+
+        .carte {
+            background-color: #222;
+
+            padding: 25px;
+
+            margin-top: 20px;
+
+            border: 1px solid #444;
+        }
+
+        .carte h3 {
+            color: #d4af37;
+        }
+
+
+        /* BOSS */
+
+        .boss {
+            background-color: #181818;
+        }
+
+        .boss h3 {
+            color: #d4af37;
+        }
+
+
+        /* PIED DE PAGE */
+
+        footer {
+            background-color: #050505;
+
+            text-align: center;
+
+            padding: 30px;
+
+            color: #888;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- MENU -->
+
+    <header>
+
+        <h1>ELDEN RING</h1>
+
+        <nav>
+
+            <a href="#accueil">Accueil</a>
+
+            <a href="#presentation">Le jeu</a>
+
+            <a href="#gameplay">Gameplay</a>
+
+            <a href="#boss">Les boss</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ACCUEIL -->
+
+    <div class="accueil" id="accueil">
+
+        <h2>ELDEN RING</h2>
+
+        <p>
+            Bienvenue dans les Terres Intermédiaires
+        </p>
+
+        <a class="bouton" href="#presentation">
+            Découvrir le jeu
+        </a>
+
+    </div>
+
+
+
+    <!-- PRESENTATION -->
+
+    <section class="presentation" id="presentation">
+
+        <h2>Présentation du jeu</h2>
+
+        <p>
+            Elden Ring est un jeu vidéo de type
+            action-RPG développé par FromSoftware.
+        </p>
+
+        <p>
+            Le joueur incarne un Sans-éclat qui doit
+            explorer les Terres Intermédiaires.
+        </p>
+
+        <p>
+            Le monde est rempli de secrets, d'ennemis,
+            de personnages et de boss.
+        </p>
+
+        <img
+            src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1000&q=80"
+            alt="Paysage fantastique"
+        >
+
+    </section>
+
+
+
+    <!-- GAMEPLAY -->
+
+    <section class="gameplay" id="gameplay">
+
+        <h2>Le gameplay</h2>
+
+
+        <div class="carte">
+
+            <h3>⚔️ Les combats</h3>
+
+            <p>
+                Les combats sont très importants dans
+                Elden Ring. Le joueur peut utiliser
+                différentes armes et compétences.
+            </p>
+
+        </div>
+
+
+        <div class="carte">
+
+            <h3>✨ La magie</h3>
+
+            <p>
+                Il est également possible d'utiliser
+                différents sorts et incantations.
+            </p>
+
+        </div>
+
+
+        <div class="carte">
+
+            <h3>🐎 L'exploration</h3>
+
+            <p>
+                Le joueur peut explorer un immense
+                monde ouvert à pied ou avec sa monture.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- BOSS -->
+
+    <section class="boss" id="boss">
+
+        <h2>Les boss</h2>
+
+        <p>
+            Elden Ring possède de nombreux boss
+            qui rendent les combats particulièrement
+            importants dans le jeu.
+        </p>
+
+
+        <div class="carte">
+
+            <h3>Malenia</h3>
+
+            <p>
+                Malenia est connue comme la Lame de Miquella.
+            </p>
+
+        </div>
+
+
+        <div class="carte">
+
+            <h3>Starscourge Radahn</h3>
+
+            <p>
+                Radahn est un puissant général connu
+                comme le Fléau des étoiles.
+            </p>
+
+        </div>
+
+
+        <div class="carte">
+
+            <h3>Godfrey</h3>
+
+            <p>
+                Godfrey est le Premier Seigneur d'Elden.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            Site réalisé dans le cadre d'un projet scolaire.
+        </p>
+
+        <p>
+            Elden Ring © FromSoftware / Bandai Namco.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
+```
+
+
+
+
+ 
+
